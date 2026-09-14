@@ -60,7 +60,7 @@ def git_push(commit_message: str):
 
         # Push
         subprocess.run(
-            ["git", "push"],
+            ["git", "push", "origin", "main"],
             check=True
         )
 
